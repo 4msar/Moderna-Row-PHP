@@ -1,0 +1,7 @@
+Add Slider in Admin & Front
+
+Add Portfolio in Admin & Front
+
+Add Blog in Admin & Front
+
+Save Contact Form Data
