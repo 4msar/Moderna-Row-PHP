@@ -8,11 +8,18 @@
 	<meta name="description" content="" />
 	<link href="assets/favicon.ico" rel="icon">
 	<!-- css -->
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700" rel="stylesheet" />
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 	<link href="assets/css/fancybox/jquery.fancybox.css" rel="stylesheet">
 	<link href="assets/css/jcarousel.css" rel="stylesheet" />
 	<link href="assets/css/flexslider.css" rel="stylesheet" />
+	<link href="assets/css/custom-fonts.css" rel="stylesheet" />
+	<link href="assets/css/font-awesome.css" rel="stylesheet" />
+	<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet" />
+	<link href="assets/css/overwrite.css" rel="stylesheet" />
+	<link href="assets/css/animate.css" rel="stylesheet" />
 	<link href="assets/css/style.css" rel="stylesheet" />
+
 
 	<!-- Theme skin -->
 	<?php $skin = get_data('settings', 'data_key', 'ws_skin', 'data_value'); ?>
