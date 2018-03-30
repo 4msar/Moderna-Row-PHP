@@ -38,7 +38,9 @@
         <!-- User Menu-->
         <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu"><i class="fa fa-user fa-lg"></i></a>
           <ul class="dropdown-menu settings-menu dropdown-menu-right">
+	    <?php if($_SESSION['user_role']=='admin'): ?>
             <li><a class="dropdown-item" href="?page=settings"><i class="fa fa-cog fa-lg"></i> Settings</a></li>
+	    <?php endif; ?>
             <li><a class="dropdown-item" href="?page=view&id=<?= $_SESSION['user_id']; ?>"><i class="fa fa-user fa-lg"></i> Profile</a></li>
             <li><a class="dropdown-item" href="?action=logout"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
           </ul>
